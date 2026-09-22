@@ -1,0 +1,17 @@
+packages:
+  - server
+  - pos-app
+
+# These packages need their official install scripts to provide Prisma engines and Vite's bundler binary.
+onlyBuiltDependencies:
+  - '@prisma/client'
+  - '@prisma/engines'
+  - bcrypt
+  - esbuild
+  - prisma
+allowBuilds:
+  '@prisma/client': true
+  '@prisma/engines': true
+  bcrypt: true
+  esbuild: true
+  prisma: true

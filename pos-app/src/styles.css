@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: InterFallback;
+  src: local("Arial");
+}
+
+body {
+  margin: 0;
+  font-family: InterFallback, system-ui, sans-serif;
+}
